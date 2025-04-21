@@ -1,4 +1,4 @@
-package org.example.figuras.modelo;
+package org.example.figuras.modelo.beans;
 
 public class Cuadrado extends Figura {
     private Double lado;

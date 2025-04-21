@@ -1,4 +1,4 @@
-package org.example.figuras.modelo;
+package org.example.figuras.modelo.beans;
 
 public class Circulo extends Figura {
     private Double radio;

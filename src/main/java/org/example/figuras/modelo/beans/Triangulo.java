@@ -1,4 +1,4 @@
-package org.example.figuras.modelo;
+package org.example.figuras.modelo.beans;
 
 public class Triangulo extends Figura {
     private Double base;
@@ -10,6 +10,6 @@ public class Triangulo extends Figura {
 
     @Override
     public Double calcularArea() {
-        return base * altura;
+        return base * altura / 2;
     }
 }
